@@ -1,6 +1,6 @@
 # iptables_counters
 
-Create iptables rules that will track the amount of traffic sent to and from a specified IP address. Useful for measuring traffic sent and received during a vulnerability scan.
+Create iptables rules that will track the amount of traffic sent to and from a specified IP address. Useful for measuring traffic sent and received during a port scan or vulnerability scan.
 
   Usage: ./iptables_counters.sh <ip_address> [0|1]
 
