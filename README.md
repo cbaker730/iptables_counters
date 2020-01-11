@@ -8,7 +8,7 @@ Create iptables rules that will track the amount of traffic sent to and from a s
     ./iptables_counters.sh 10.0.0.15.0      Removes rules created above
 
 
-    # ./iptables_measure.sh 10.0.0.15 1
+    # ./iptables_counters.sh 10.0.0.15 1
     [*] Creating counter rules for 10.0.0.15
     [*] Counters reset. NOTE: Remember to reset counters with: iptables -Z
     [*] Listing rules using: iptables -vn -L
@@ -25,7 +25,7 @@ Create iptables rules that will track the amount of traffic sent to and from a s
     
     
     
-    # ./iptables_measure.sh 10.0.0.1 0
+    # ./iptables_counters.sh 10.0.0.1 0
     [*] Removing counter rules for 10.0.0.15
     [*] Listing rules using: iptables -vn -L
     Chain INPUT (policy ACCEPT 26 packets, 3895 bytes)
